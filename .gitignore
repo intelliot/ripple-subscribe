@@ -32,8 +32,9 @@ bower_components
 # Compiled binary addons (http://nodejs.org/api/addons.html)
 build/Release
 
-# Dependency directories
-node_modules/
+# Dependency directory
+# Note that node_modules/ is intentionally not ignored
+# This allows us to easily track changes in dependencies
 jspm_packages/
 
 # Typescript v1 declaration files

@@ -1,0 +1,9 @@
+{
+  "name": "ripple-subscribe",
+  "version": "0.0.0",
+  "main": "subscribe.js",
+  "license": "MIT",
+  "dependencies": {
+    "ripple-lib": "^0.18.1"
+  }
+}
