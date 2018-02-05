@@ -5,5 +5,15 @@
   "license": "MIT",
   "dependencies": {
     "ripple-lib": "^0.18.1"
+  },
+  "scripts": {
+    "lint": "tslint --project tsconfig.json",
+    "compile": "tsc",
+    "subscribe": "node ./built/subscribe.js"
+  },
+  "devDependencies": {
+    "tslint": "^5.9.1",
+    "tslint-eslint-rules": "^4.1.1",
+    "typescript": "^2.7.1"
   }
 }
